@@ -3,7 +3,7 @@ import Card from '../UI/Card';
 import React from "react";
 import './Expenses.css';
 
-function Expense(expenseInfo){
+const Expense = (expenseInfo) => {
 
     return (
         <Card className='expenses'>
