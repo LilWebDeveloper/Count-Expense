@@ -7,26 +7,27 @@ const dummyExpenses = [
     id: "e1",
     title: "Car Insurance",
     amount: 294.67,
-    date: new Date(2022, 2, 28),
+    date: new Date(2019, 2, 28),
   },
   {
     id: "e2",
     title: "Burger",
     amount: 35.99,
-    date: new Date(2022, 5, 29),
+    date: new Date(2021, 5, 29),
   },
   {
     id: "e3",
     title: "Petrol",
     amount: 102.46,
-    date: new Date(2023, 1, 6),
+    date: new Date(2021, 1, 6),
   },
   {
     id: "e4",
     title: "Gifts",
-    amount: 294.67,
-    date: new Date(2022, 12, 28),
+    amount: 350.45,
+    date: new Date(2020, 2, 28),
   },
+  
 ];
 
 const App = () => {
